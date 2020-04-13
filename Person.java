@@ -10,6 +10,7 @@ public class Person{
 		this.isSitting = isSitting;
 	}
 
+	
 	void sitDown(){
 		this.isSitting = true;
 	}
