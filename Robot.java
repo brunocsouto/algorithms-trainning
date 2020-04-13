@@ -15,7 +15,9 @@ public class Robot{
 
 	public static void main(String[] args){
 		Robot r1 = new Robot("Tom", "gray", 50);
+		Robot r2 = new Robot("Jerry", "brown", 10);
 
 		r1.introduceSelf();
+		r2.introduceSelf();
 	}
 }
